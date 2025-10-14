@@ -4,6 +4,7 @@
   letter-spacing: 0.5px;
 }
 
+/* Using !important here to ensure active link stays red despite Bootstrap defaults */
 .nav-link.active {
   font-weight: 600;
   color: #dc3545 !important; /* Man United red */
@@ -11,4 +12,11 @@
 
 .navbar {
   border-bottom: 3px solid #dc3545;
+}
+
+/* Using !important to ensure hover colour overrides active state and Bootstrap defaults */
+.nav-link:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
