@@ -1,0 +1,14 @@
+/* Navbar Styles */
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: #dc3545 !important; /* Man United red */
+}
+
+.navbar {
+  border-bottom: 3px solid #dc3545;
+}
