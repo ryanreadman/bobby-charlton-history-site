@@ -20,3 +20,45 @@
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+
+/* Footer Styles */
+footer {
+  background-color: #000000;       /* same black as navbar */
+  border-top: 3px solid #dc3545;   /* Man United red border */
+  color: #ffffff;                  /* white text */
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+footer a {
+  color: #dc3545; /* red links (matches navbar) */
+  font-weight: 600; /* semi-bold to match navbar */
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+footer a:hover {
+  color: #ffffff; /* white hover, same as navbar hover */
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+footer i {
+  margin-right: 6px; /* adds small gap between icon and text */
+}
+
+/* Global link styles for navbar and footer */
+a {
+  color: #dc3545; /* Man United red */
+  text-decoration: none; /* remove underline by default */
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #ffffff; /* white on hover */
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
