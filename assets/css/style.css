@@ -62,3 +62,8 @@ a:focus {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+
+/* Body padding to prevent content being hidden behind fixed navbar */
+body {
+  padding-top: 60px; /* Adjust based on navbar height */
+}
