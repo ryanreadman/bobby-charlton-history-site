@@ -1,12 +1,17 @@
 /* Navbar Styles */
 
 .navbar-brand {
+  font-family: 'Cinzel Decorative', 'Times New Roman', serif; /* decorative font for brand */
+  font-weight: 700;
   letter-spacing: 0.5px;
+  color: #ffffff;
 }
 
 /* Using !important here to ensure active link stays red despite Bootstrap defaults */
 .nav-link.active {
+  font-family: 'Cinzel Decorative', 'Times New Roman', serif;
   font-weight: 600;
+  letter-spacing: 0.5px;
   color: #dc3545 !important; /* Man United red */
 }
 
@@ -21,6 +26,14 @@
   text-underline-offset: 4px;
 }
 
+/* Global Body Text */
+body {
+  font-family: 'Crimson Text', 'Georgia', serif;
+  color: #333333; /* dark grey for better readability */
+  line-height: 1.6;
+  background-color: #f8f9fa; /* light grey background for contrast */
+}
+  
 /* Footer Styles */
 footer {
   background-color: #000000;       /* same black as navbar */
