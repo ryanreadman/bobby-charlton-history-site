@@ -26,6 +26,17 @@
   text-underline-offset: 4px;
 }
 
+/* Hero Image */
+#hero {
+  background: url("/assets/css/images/sir-bobby-charlton-stand.webp") center/cover no-repeat;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  padding-top: 60px; /* to offset fixed navbar */
+}
+
 /* Global Body Text */
 body {
   font-family: 'Crimson Text', 'Georgia', serif;
