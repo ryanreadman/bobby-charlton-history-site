@@ -63,6 +63,22 @@
   color: #ffffff;
 }
 
+main {
+  border-top: 3px solid #dc3545;
+}
+
+/* Tribute Image */
+#tribute img {
+    border: 3px solid #dc3545; /* red border to match theme */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* subtle shadow for depth */
+}
+
+#tribute {
+    background-color: #f5f5f5; /* light grey background for contrast */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
 /* Global Body Text */
 body {
   font-family: 'Crimson Text', 'Georgia', serif;
