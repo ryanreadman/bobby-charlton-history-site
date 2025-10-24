@@ -120,3 +120,7 @@ Once I am satisfied with my project plan and start developing the website I will
 ---
 
 *This is my first project as part of the Code Insitute Full Stack Software Developer course.*
+
+- Hero background image of Old Trafford's Sir Bobby Charlton Stand by |The Sir Bobby Charlton Stand (South Stand) seen from the Sir Alex Ferguson Stand (North Stand)| [WDM10](https://commons.wikimedia.org/wiki/File:Sir_Bobby_Charlton_Stand_(South_Stand).jpg) is used under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+- Tribute image of Sir Bobby Charlton by |Bobby Charlton Portrait Photo 2010| [The Centre for School Design](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Bobby_Charlton_Portrait.jpg/640px-Bobby_Charlton_Portrait.jpg) is used under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
